@@ -26,7 +26,7 @@ See [Best practice procedure](../builders/configuration.md#best-practice-procedu
 
 **Scriptname:** [setup_configure_audio.sh](../../installation/components/setup_configure_audio.sh)
 
-A setup tool to register the PulseAudio sinks as primary and secondary audio outputs.
+A setup tool to register the PulseAudio sinks as primary and secondary audio outputs. (For 2 audio output option please run the script with parameter `-f`)
 
 This will also set up an equalizer and mono downmixer in the PulseAudio configuration file. Run this once after installation. It can be re-run at any time to change the settings. For more information see [Audio Configuration](../builders/audio.md).
 
